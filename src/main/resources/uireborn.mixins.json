@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.uireborn.mixin",
+  "compatibilityLevel": "JAVA_11",
+  "mixins": [
+
+  ],
+  "client": [
+    "MinecraftClientSessionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

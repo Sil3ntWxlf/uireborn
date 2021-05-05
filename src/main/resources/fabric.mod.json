@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "uireborn",
+  "version": "${version}",
+
+  "name": "UIReborn",
+  "description": "A mod to allow full customization of all UI & Hud elements!",
+  "authors": [
+    "Sil3ntWxlf",
+    "NachtRaben"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Sil3ntWxlf/uireborn",
+    "sources": "https://github.com/Sil3ntWxlf/uireborn\""
+  },
+
+  "license": "MIT",
+  "icon": "assets/uireborn/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.uireborn.client.UIReborn"
+    ],
+    "modmenu": [
+      "com.uireborn.mod.ModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "uireborn.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "modmenu": ">=1.16.9"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
