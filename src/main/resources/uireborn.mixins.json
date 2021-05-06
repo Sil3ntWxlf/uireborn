@@ -4,10 +4,7 @@
   "package": "com.uireborn.mixin",
   "compatibilityLevel": "JAVA_11",
   "mixins": [
-
-  ],
-  "client": [
-    "MinecraftClientSessionMixin"
+    "MainMenuMixin"
   ],
   "injectors": {
     "defaultRequire": 1

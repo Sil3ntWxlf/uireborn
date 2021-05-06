@@ -23,7 +23,7 @@
       "com.uireborn.client.UIReborn"
     ],
     "modmenu": [
-      "com.uireborn.mod.ModMenuApiImpl"
+      "com.uireborn.client.ModMenuApiImpl"
     ]
   },
   "mixins": [
@@ -33,7 +33,7 @@
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.16.5",
+    "minecraft": ">=1.16.5",
     "modmenu": ">=1.16.9"
   },
   "suggests": {
